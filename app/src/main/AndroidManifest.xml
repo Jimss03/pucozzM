@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.Destura.notesapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".QuizAvtivity.cssquiz"
+            android:exported="false" />
+        <activity
+            android:name=".MusicAct.AlbumDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MusicAct.PlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MusicAct.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".video.VideoFolderActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".video.videoplayer"
+            android:exported="false" />
+        <activity
+            android:name=".video.Videoplaylistplayer"
+            android:exported="false" />
+        <activity
+            android:name=".lessonActivity.uservideouploads"
+            android:exported="false" />
+        <activity
+            android:name=".QuizAvtivity.javaquestion1"
+            android:exported="false" />
+        <activity
+            android:name=".lessonActivity.Showvideo1"
+            android:exported="false" />
+        <activity
+            android:name=".video.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".lessonActivity.Showvideo"
+            android:exported="false" />
+        <activity
+            android:name=".QuizAvtivity.QuestionActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizAvtivity.QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lessonActivity.lessontopics"
+            android:exported="false" />
+        <activity
+            android:name=".homeActivity.home"
+            android:exported="false" />
+        <activity
+            android:name=".loginregOut.fogotpassword"
+            android:exported="false" />
+        <activity
+            android:name=".loginregOut.signup"
+            android:exported="false" />
+        <activity
+            android:name=".notiblock.Status_Page"
+            android:exported="false" />
+        <activity android:name=".loginregOut.loginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".notiblock.Block_All_Notification"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".noteActivity.notePage" />
+
+        <service android:name=".notiblock.Database_Update" />
+    </application>
+
+</manifest>

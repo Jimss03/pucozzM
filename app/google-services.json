@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "716167691421",
+    "project_id": "phucosapp",
+    "storage_bucket": "phucosapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716167691421:android:6ee0cb6f52ca01d876a874",
+        "android_client_info": {
+          "package_name": "com.codingwithme.notesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716167691421-btp6g93iv2f22a0hi4rslnpsfhnkjj48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTVZl9wSGpTMQpKtnE-ksMFbEhZ8jp4LE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716167691421-btp6g93iv2f22a0hi4rslnpsfhnkjj48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

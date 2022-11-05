@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="2dp"
+    android:background="@color/designMainColor"
+    app:cardCornerRadius="15dp"
+    android:id="@+id/audio_item">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/music_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/musicicon"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/music_file_name"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/music_img"
+        android:text="Filename"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/menuMore"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_play_circle_outline_24" />
+</RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

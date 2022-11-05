@@ -1,0 +1,56 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/ColorGreenNote</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeOverlay.search" parent="AppTheme">
+
+        <!-- Text color -->
+        <item name="android:editTextColor">@color/ColorWhite</item>
+        <!-- Hint text color -->
+        <item name="android:textColorHint">@color/ColorGray</item>
+
+    </style>
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="viewParent.headerText">
+        <item name="android:textColor">@color/contentTextColor</item>
+        <item name="android:textSize">@dimen/headerTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="curved">
+        <item name="cornerSize">15%</item>
+    </style>
+
+    <style name="coolBlackNav"></style>
+
+    <style name="coolPink"></style>
+
+    <style name="coolBlue"></style>
+
+    <style name="coolPurple"></style>
+
+    <style name="coolGreen"></style>
+
+    <style name="coolBlack"></style>
+
+    <style name="coolGreenNav"></style>
+
+    <style name="coolP"></style>
+
+    <style name="coolBlueNav"></style>
+
+    <style name="coolPinkNav"></style>
+
+    <style name="coolPurpleNav"></style>
+</resources>
